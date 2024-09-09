@@ -1,0 +1,86 @@
+body {
+  background-color: #f9f7fd;
+  font-family: "New Amsterdam", sans-serif;
+}
+
+a {
+  color: magenta;
+}
+
+.city-details {
+  color: grey;
+  font-size: 21px;
+}
+
+.city-details strong {
+  color: #f65281;
+}
+
+.city {
+  font-size: 75px;
+  margin: 0;
+}
+
+.weather-page {
+  background-color: rgb(165, 177, 251);
+  padding: 70px;
+  margin: 75px auto;
+  box-shadow: rgba(65, 50, 100, 0.08) 0px 30px 50px 0px;
+  border-radius: 15px;
+  max-width: 600px;
+}
+
+header {
+  border-bottom: 2px solid goldenrod;
+  padding: 20px;
+}
+
+.search-options {
+  border: none;
+  background-color: rgb(215, 207, 207);
+  font-size: 13px;
+  padding: 10px;
+  border-radius: 6px;
+  color: #757575;
+  width: 65%;
+}
+
+.search-button {
+  background-color: #885df1;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-left: 5px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current-degree {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.current-celsius {
+  font-size: 38px;
+  position: relative;
+  top: -25px;
+}
+
+.current-icon {
+  font-size: 39px;
+  margin-right: 5px;
+}
+
+footer {
+  text-align: center;
+  border-top: 2px solid rgb(255, 0, 217);
+  color: grey;
+  padding-top: 10px;
+}
+
+main {
+  padding: 10px;
+}
